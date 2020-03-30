@@ -1,0 +1,9 @@
+/* App
+------------------------------------ */
+.app {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+a {
+  color: #444 !important;
+}

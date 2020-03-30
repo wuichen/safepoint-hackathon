@@ -1,0 +1,8 @@
+.dashboard-home .plan-posters {
+  display: flex;
+}
+
+.dashboard-home .plan-posters .plan-poster {
+  width: 100%;
+  max-width: 33.333333%;
+}

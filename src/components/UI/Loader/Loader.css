@@ -1,0 +1,41 @@
+/* Loader
+------------------------------------ */
+.loader {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.loader.loader-inline {
+  position: relative;
+  padding: 2rem;
+  background: transparent;
+}
+.loader .loader-message {
+  margin-bottom: 1rem;
+  max-width: 600px;
+  text-align: center;
+}
+.loader .loader-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  font-size: 48px;
+  color: #444;
+  animation: spin 1s ease infinite;
+}
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}

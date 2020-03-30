@@ -1,0 +1,14 @@
+.plan-poster {
+  margin: 1rem 20px;
+  border: 1px solid #444;
+  border-radius: 3px;
+}
+.plan-poster .plan-poster-header {
+  text-align: center;
+}
+.plan-poster .plan-poster-name {
+  padding-bottom: 0;
+}
+.plan-poster-btn {
+  width: 100%;
+}

@@ -1,0 +1,113 @@
+body {
+  background: #fff;
+}
+.loader {
+  background: #fff;
+}
+.loader.loader-inline {
+  background: transparent;
+}
+.table-item-link:hover {
+  background: #e4e4dc;
+}
+.hero {
+  padding: 1rem 0;
+}
+@media (min-width: 760px) {
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0 6rem 0;
+  }
+  .hero-column {
+    width: 50%;
+  }
+}
+.hero .hero-title {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+.hero .hero-description {
+  font-size: 1.25rem;
+}
+.hero-description-highlight {
+  background: #f7d85f78;
+}
+.faux-pricing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.faux-pricing-item {
+  width: 200px;
+  border-radius: 12px;
+  background: #fff;
+  font-size: 0.8rem;
+  -webkit-box-shadow: 0px 0px 36px -5px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 36px -5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 36px -5px rgba(0, 0, 0, 0.1);
+}
+.faux-pricing-item-header {
+  border-bottom: 1px solid #eaeaea;
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+.faux-pricing-item:nth-child(2) {
+  position: relative;
+  z-index: 9999;
+  margin-left: -10%;
+  margin-right: -10%;
+  -webkit-box-shadow: 0px 0px 36px -5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 36px -5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 36px -5px rgba(0, 0, 0, 0.3);
+}
+.faux-pricing-item:nth-child(2) .faux-pricing-item-header {
+  background: #f7d85f;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom: 0;
+}
+.faux-pricing-item:nth-child(2) .faux-pricing-item-description {
+  height: 58px;
+}
+.faux-pricing-item-price {
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: center;
+}
+.faux-pricing-item-description {
+  padding-top: 0.5rem;
+}
+.faux-pricing-item-features {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0.8rem;
+}
+.faux-pricing-item-features li {
+  border-bottom: 1px solid #eaeaea;
+  padding: 10px 20px;
+}
+.faux-pricing-item-btn {
+  background: #8ebbd2;
+  padding: 10px 10px 12px 10px;
+  border-radius: 6px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 0.8rem;
+}
+.faux-pricing-item-btn:hover {
+  color: #fff;
+  cursor: default;
+}
+.section {
+  padding: 3rem 0;
+}
+.section-bg-white {
+  background: #fff;
+}
+.hr-text span {
+  background: #fff;
+}

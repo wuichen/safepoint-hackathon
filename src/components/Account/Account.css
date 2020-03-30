@@ -1,0 +1,18 @@
+/* Account
+------------------------------------ */
+.account {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.account .account-header {
+  text-align: center;
+}
+.account .account-avatar {
+  padding-bottom: 0;
+}
+.account .account-display-name {
+  padding-bottom: 0;
+}
+.account .account-email {
+  padding-top: 0;
+}
