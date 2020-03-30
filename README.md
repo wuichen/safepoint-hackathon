@@ -26,3 +26,5 @@ demo at https://safepoint-d221c.firebaseapp.com/
 ## Limitations
 
 many of the features are still currently (wip). email sending only works on localhost:3000 currently.
+
+Using https://github.com/roll-your-own/subscriptions as base template currently 
