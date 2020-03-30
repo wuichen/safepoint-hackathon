@@ -2,6 +2,8 @@
 
 Safepoint is a platform that allow users to report their sickness, share essential information with the public including privacy and clinical report protocols, and connect with medical professionals for a video chat consulting session.
 
+demo at https://safepoint-d221c.firebaseapp.com/
+
 ## Tech stack
 
 - react
