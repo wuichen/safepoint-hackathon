@@ -44,7 +44,7 @@
     "react-mapbox-gl": "^4.8.3",
     "react-multi-carousel": "^2.5.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.0",
+    "react-scripts": "5.0.1",
     "react-scroll": "^1.7.16",
     "react-share": "^4.0.1",
     "react-stickynode": "^2.1.1",
